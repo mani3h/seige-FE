@@ -1,2 +1,2 @@
 # 50DaysofHTML-CSS
-50 mini web projects using HTML/CSS and Js. 
+Mini web projects based on Html, CSS and Js. 

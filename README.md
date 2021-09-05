@@ -23,4 +23,6 @@ Clean-Code-Javascript :  https://github.com/ryanmcdermott/clean-code-javascript
 
 free-programming-books :  https://github.com/EbookFoundation/free-programming-books
 
-https://cs50.harvard.edu/web/2020/
+CS50's Web Programming with Python and JavaScript : https://cs50.harvard.edu/web/2020/
+                       
+How to create your own VPN :    https://pastebin.com/9zqNMYkV

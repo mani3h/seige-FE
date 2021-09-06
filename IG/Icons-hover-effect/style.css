@@ -1,0 +1,61 @@
+body {
+}
+* {
+  margin: 0;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a{
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.7rem;
+  color: #fff;
+  transition: .4s;
+}
+
+span {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  z-index: -1;
+  transition: .4s;
+}
+
+a:nth-child(1),a:nth-child(1) span{
+  background: #00acee;
+}
+
+a:nth-child(2),a:nth-child(2) span{
+  background: #dd2a7b;
+}
+
+a:nth-child(3), a:nth-child(3) span{
+  background: #121212;
+}
+
+a:nth-child(4), a:nth-child(4) span{
+  background: #0077b5;
+}
+
+a:hover span {
+  transform: scale(1.1);
+  opacity: .5;
+}
+
+a:hover span:nth-child(2) {
+  transform: scale(1.2);
+  opacity: .2;
+}

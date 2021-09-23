@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b1b1b;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.loader {
+  display: block;
+}
+
+.loader span {
+  display: inline-block;
+  margin-top: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.loader span:not(:first-child) {
+  margin-left: 10px;
+}
+
+.loader span:nth-child(1) {
+  background: #4285F4;
+  animation: move 1s ease-in-out -0.25s infinite alternate;
+}
+
+.loader span:nth-child(2) {
+  background: #DB4437;
+  animation: move 1s ease-in-out -0.5s infinite alternate;
+}
+
+.loader span:nth-child(3) {
+  background: #F4B400;
+  animation: move 1s ease-in-out -0.75s infinite alternate;
+}
+
+.loader span:nth-child(4) {
+  background: #0F9D58;
+  animation: move 1s ease-in-out -1s infinite alternate;
+}
+
+@-webkit-keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(5px);
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(5px);
+  }
+}
+
+ span:first-child {
+  color: #4285F4;
+}
+
+ span:nth-child(2) {
+  color: #DB4437;
+}
+
+ span:nth-child(3) {
+  color: #F4B400;
+}
+
+ span:nth-child(4) {
+  color: #4285F4;
+}
+
+ span:nth-child(5) {
+  color: #0F9D58;
+}

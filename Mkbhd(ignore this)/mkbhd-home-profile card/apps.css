@@ -1,0 +1,65 @@
+.bg-comp
+{
+	background-color: #FBF9F7;
+}
+
+body
+{
+	background-image: url(Website+Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+#Content {
+	float: right;
+	padding-right: 8%;
+	padding-top: 12%;
+	font-family: 'Raleway', sans-serif;
+}
+
+#logoContainer {
+	margin-bottom: 1%;
+}
+
+#im1 {
+	width: 40%;
+}
+
+#textContainer {
+	text-align: left;
+}
+
+#heading
+{
+	text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 7%;
+}
+
+#description {
+	font-size: 15px;
+	color: #E4E0DB;
+	font-weight: 300;
+
+}
+
+.anch{
+	font-size: 80px;
+	padding-top: 3%;
+	font-size: 17px;
+	font-weight: 800;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+
+.icons {
+	padding-top: 30px;
+}

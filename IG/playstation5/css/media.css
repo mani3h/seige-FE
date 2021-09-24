@@ -1,0 +1,130 @@
+
+
+/* All Media Tags To Make Responsive Website */
+
+
+
+@media screen and (max-width:888px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+  
+    nav button{
+        margin: 15px auto;
+    }
+    
+    nav ul{
+        width: 100%;
+        height: 160px;
+        display: block;
+        flex-direction: column;
+        background: linear-gradient(to right ,rgb(0, 0, 0), #000);
+        color: white;
+        position:absolute;
+        top: 75px;
+        z-index: 2;
+        right: 0;
+    }
+    nav ul li{
+        display: block;
+        margin: 10px 20px;
+    }
+    .navbar .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+        height: 160px;
+
+    }
+    .col-1:after{
+        height: 70%;
+
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        
+        flex-direction: column-reverse;
+    }
+    .col-2 .controller {
+        width: 80%;
+        margin: -50px 0 0 0;
+}
+
+.container .video {
+    overflow: hidden;
+}
+
+.container2 .videos iframe{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+}
+
+
+@media screen and (max-width:372px){
+    .col-1 h2{
+        font-size: 12vw;
+    }
+    .container2 .videos iframe{
+        width: 80vw;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .container-3 .icons-cnt3{
+        flex-direction: column;
+    }
+    .container4 .card .card-body{
+        width: 84vw;
+    }
+}
+
+
+@media screen and (max-width:1013px){
+    .container4 .cards{
+        flex-direction: column;
+    }
+    .container2 .videos {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:530px){
+    
+.container4 .card img{
+    width: 80vw;
+}
+footer{
+    flex-direction: column;
+}
+footer .col1{
+    flex-direction: column;
+    align-items:flex-start;
+}
+footer .col1 li{
+    margin: 25px 10px;
+}
+}
+
+@media screen and (max-width:772px){
+    .container5 .vrtcl-card {
+        margin: 15px auto;
+        display: flex;
+        align-items: center;
+        width: 52vw;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

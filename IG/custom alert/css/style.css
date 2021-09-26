@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+    font-family: poppins;
+}
+button{
+    cursor: pointer;
+}
+.custom-js-alert {
+    position: fixed;
+    z-index: 650;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
+    max-width: 400px;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+    -webkit-box-shadow: 3px 4px 15px rgba(34, 34, 34, 0.3);
+            box-shadow: 3px 4px 15px rgba(34, 34, 34, 0.3);
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in;
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+  }
+  
+  .custom-js-alert p {
+    font-weight: 600;
+    font-size: 23px;
+    margin: 10px 0 10px 0;
+  }
+  
+  .custom-js-alert button {
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #222;
+    border: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: 600;
+  }
+  
+  .custom-js-alert .okbox {
+    display: none;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .custom-js-alert .okbox .ok {
+    padding: 10px 30px;
+  }
+  
+  .custom-js-alert .confirm {
+    display: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .custom-js-alert .confirm button {
+    padding: 10px 20px;
+  }
+  
+  .custom-js-alert .confirm button:nth-child(1) {
+    background-color: #FF00B2;
+    color: #fff;
+  }

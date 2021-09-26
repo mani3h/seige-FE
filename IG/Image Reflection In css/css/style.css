@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #171717;
+  }
+  
+  
+  .container img {
+      margin-right: 20px;
+    max-width: 350px;
+    transform-origin: center;
+    transform: perspective(800px) rotateY(20deg);
+    transition: transform .5s, opacity .5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.418));
+  }
+  
+  .container:hover img {
+    opacity: .5;
+  }
+  
+  .container img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+  }

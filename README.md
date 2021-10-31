@@ -27,3 +27,4 @@ CS50's Web Programming with Python and JavaScript : https://cs50.harvard.edu/web
                        
 How to create your own VPN :    https://pastebin.com/9zqNMYkV
 
+https://www.frontendeverything.in/2021/10/free-web-development-and-programming.html?m=1
